@@ -12,6 +12,15 @@ Implementação da primeira parte do trabalho prático de Algoritmos em Grafos (
   - Grau médio
   - Distribuição empírica dos graus
 
+## Funcionalidades pendentes (TODO)
+
+- [ ] Implementar busca em largura (BFS)
+- [ ] Implementar busca em profundidade (DFS)
+- [ ] Gerar árvore de busca com pai e nível de cada vértice
+- [ ] Descobrir componentes conexos do grafo
+- [ ] Listar componentes por tamanho e vértices que pertencem a cada um
+- [ ] Gerar arquivo de saída com os dados das buscas e componentes
+
 ## Como usar
 
 ```bash
