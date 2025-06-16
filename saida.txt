@@ -1,0 +1,24 @@
+# n = 5
+# m = 5
+# d_medio = 2.0
+1 0.40
+2 0.40
+4 0.20
+
+Busca em Largura (BFS) a partir do vertice 4:
+  Vertice 1: pai = 5, nivel = 1
+  Vertice 2: pai = 5, nivel = 1
+  Vertice 3: pai = 5, nivel = 1
+  Vertice 4: pai = 5, nivel = 1
+  Vertice 5: pai = -1, nivel = 0
+
+Busca em Profundidade (DFS) a partir do vertice 4:
+  Vertice 1: pai = 2, nivel = 2
+  Vertice 2: pai = 5, nivel = 1
+  Vertice 3: pai = 5, nivel = 1
+  Vertice 4: pai = 5, nivel = 1
+  Vertice 5: pai = -1, nivel = 0
+
+Numero de componentes conexos: 1
+Componentes:
+  Componente 1 (tamanho 5): [1, 2, 3, 4, 5]
