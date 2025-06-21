@@ -25,3 +25,9 @@ python exemplos/teste.py
 ```
 
 O arquivo `exemplo.txt` será carregado e `saida.txt` será gerado com as estatísticas.
+
+## 🙏 Agradecimentos aos Contribuidores ❤
+
+<a href="https://github.com/paulemacedo/biblioteca-grafos/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=paulemacedo/biblioteca-grafos" alt="Colaboradores do projeto"/>
+</a>
