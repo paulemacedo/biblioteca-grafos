@@ -1,4 +1,5 @@
 from collections import deque, defaultdict
+import heapq
 class Grafo:
     def __init__(self, usar_matriz=True):
         self.usar_matriz = usar_matriz
@@ -98,6 +99,50 @@ class Grafo:
 
             return componentes
         
+    def reconstruir_caminho(self, pai, destino):
+        caminho = []
+        while destino != -1:
+            caminho.append(destino)
+            destino = pai[destino]
+        return caminho[::-1]
+
+    def caminho_minimo(self, origem, destino):
+        if self.tem_pesos:
+            # Dijkstra
+            dist = [float('inf')] * self.num_vertices
+            pai = [-1] * self.num_vertices
+            dist[origem] = 0
+            heap = [(0, origem)]
+
+            while heap:
+                d, u = heapq.heappop(heap)
+                if d > dist[u]:
+                    continue
+                for v in self.lista_adj[u]:
+                    peso = self.pesos[u].get(v, 1)
+                    if dist[u] + peso < dist[v]:
+                        dist[v] = dist[u] + peso
+                        pai[v] = u
+                        heapq.heappush(heap, (dist[v], v))
+
+            caminho = self.reconstruir_caminho(pai, destino)
+            return dist[destino], caminho
+        else:
+            # BFS
+            pai, nivel = self.bfs(origem)
+            caminho = self.reconstruir_caminho(pai, destino)
+            return nivel[destino], caminho
+
+    def todos_caminhos_a_partir_de(self, origem):
+        resultados = {}
+        for v in range(self.num_vertices):
+            dist, caminho = self.caminho_minimo(origem, v)
+            resultados[v] = {
+                "distancia": dist,
+                "caminho": caminho
+            }
+        return resultados
+        
     def salvar_resumo(self, caminho_saida, vertice_inicial=0):
             graus = [len(adj) for adj in self.lista_adj]
             grau_medio = sum(graus) / self.num_vertices if self.num_vertices > 0 else 0
@@ -129,3 +174,10 @@ class Grafo:
                 componentes.sort(key=lambda x: -len(x))
                 for i, comp in enumerate(componentes):
                     f.write(f"  Componente {i+1} (tamanho {len(comp)}): {[v + 1 for v in sorted(comp)]}\n")
+                    
+                f.write(f"\nCaminhos minimos a partir do vertice {vertice_inicial + 1}:\n")
+                todos = self.todos_caminhos_a_partir_de(vertice_inicial)
+                for v in range(self.num_vertices):
+                    dist = todos[v]["distancia"]
+                    caminho = [x + 1 for x in todos[v]["caminho"]]
+                    f.write(f"  Para vertice {v + 1}: distancia = {dist}, caminho = {caminho}\n")
