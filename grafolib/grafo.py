@@ -16,6 +16,9 @@ class Grafo:
         self.num_vertices = int(linhas[0].strip())
         self.matriz_adj = [[0] * self.num_vertices for _ in range(self.num_vertices)]
         self.lista_adj = [[] for _ in range(self.num_vertices)]
+        self.pesos = defaultdict(dict)
+        self.num_arestas = 0
+        self.tem_pesos = False
 
         for linha in linhas[1:]:
             partes = linha.strip().split()
@@ -30,6 +33,12 @@ class Grafo:
                 self.lista_adj[v].append(u)
 
                 self.num_arestas += 1
+
+                if len(partes) == 3:
+                    peso = float(partes[2])
+                    self.pesos[u][v] = peso
+                    self.pesos[v][u] = peso
+                    self.tem_pesos = True
 
 
 
