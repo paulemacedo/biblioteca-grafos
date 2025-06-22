@@ -6,6 +6,8 @@ class Grafo:
         self.num_arestas = 0
         self.matriz_adj = []
         self.lista_adj = []
+        self.pesos = defaultdict(dict)
+        self.tem_pesos = False
 
     def carregar_arquivo(self, caminho):
         with open(caminho, 'r') as f:
