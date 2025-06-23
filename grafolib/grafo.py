@@ -133,7 +133,7 @@ class Grafo:
             caminho = self.reconstruir_caminho(pai, destino)
             return nivel[destino], caminho
 
-    def caminhhos(self, origem):
+    def caminhos(self, origem):
         resultados = {}
         for v in range(self.num_vertices):
             dist, caminho = self.caminho_minimo(origem, v)
