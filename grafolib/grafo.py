@@ -104,7 +104,7 @@ class Grafo:
         while destino != -1:
             caminho.append(destino)
             destino = pai[destino]
-        return caminho[::-1]
+        return list(reversed(caminho))
 
     def caminho_minimo(self, origem, destino):
         if self.tem_pesos:
@@ -133,7 +133,7 @@ class Grafo:
             caminho = self.reconstruir_caminho(pai, destino)
             return nivel[destino], caminho
 
-    def todos_caminhos_a_partir_de(self, origem):
+    def caminhhos(self, origem):
         resultados = {}
         for v in range(self.num_vertices):
             dist, caminho = self.caminho_minimo(origem, v)
@@ -176,7 +176,7 @@ class Grafo:
                     f.write(f"  Componente {i+1} (tamanho {len(comp)}): {[v + 1 for v in sorted(comp)]}\n")
                     
                 f.write(f"\nCaminhos minimos a partir do vertice {vertice_inicial + 1}:\n")
-                todos = self.todos_caminhos_a_partir_de(vertice_inicial)
+                todos = self.caminhos(vertice_inicial)
                 for v in range(self.num_vertices):
                     dist = todos[v]["distancia"]
                     caminho = [x + 1 for x in todos[v]["caminho"]]
