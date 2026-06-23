@@ -1,0 +1,31 @@
+# n = 5
+# m = 4
+# d_medio = 1.6
+1 0.60
+2 0.20
+3 0.20
+
+Busca em Largura (BFS) a partir do vertice 4:
+  Vertice 1: pai = 2, nivel = 3
+  Vertice 2: pai = 4, nivel = 2
+  Vertice 3: pai = 2, nivel = 3
+  Vertice 4: pai = 5, nivel = 1
+  Vertice 5: pai = -1, nivel = 0
+
+Busca em Profundidade (DFS) a partir do vertice 4:
+  Vertice 1: pai = 2, nivel = 3
+  Vertice 2: pai = 4, nivel = 2
+  Vertice 3: pai = 2, nivel = 3
+  Vertice 4: pai = 5, nivel = 1
+  Vertice 5: pai = -1, nivel = 0
+
+Numero de componentes conexos: 1
+Componentes:
+  Componente 1 (tamanho 5): [1, 2, 3, 4, 5]
+
+Caminhos minimos a partir do vertice 5:
+  Para vertice 1: distancia = 5.0, caminho = [5, 4, 2, 1]
+  Para vertice 2: distancia = 3.5, caminho = [5, 4, 2]
+  Para vertice 3: distancia = 5.5, caminho = [5, 4, 2, 3]
+  Para vertice 4: distancia = 2.5, caminho = [5, 4]
+  Para vertice 5: distancia = 0, caminho = [5]
