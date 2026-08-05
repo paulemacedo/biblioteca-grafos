@@ -1,0 +1,682 @@
+{
+  "config": [
+    {
+      "_id": "casa",
+      "nome": "Templo de Umbanda Universalista Luz de Lion",
+      "sigla": "TUULLI",
+      "slogan": "Casa de Omolu — Zona Norte, Rio de Janeiro",
+      "selo": "LUZ DE LION · CASA DE OMOLU · ATOTÔ · SARAVÁ · ",
+      "fundamentos": "O TUULLI é uma casa de Umbanda universalista, firmada nos fundamentos de Omolu, orixá regente do templo. Trabalhamos com caridade sem ver a quem, respeito às linhas de trabalho e estudo constante da doutrina. As giras são abertas ao público e a consulta é gratuita. Este texto é editável pela administração na área interna.",
+      "maeDeSanto": {
+        "nome": "Mãe Karoline Miranda",
+        "texto": "Dirigente espiritual do Templo de Umbanda Universalista Luz de Lion, conduz as giras, os desenvolvimentos mediúnicos e a formação dos filhos da casa. Este texto de apresentação é editável pela administração."
+      },
+      "endereco": "R. Conselheiro Agostinho, 52 — Todos os Santos, Rio de Janeiro / RJ — CEP 20770-160",
+      "sede": "na sede da União Espiritista de Umbanda do Brasil",
+      "horarios": "Consulte a agenda de giras com a casa. Horários editáveis pela administração.",
+      "contatos": {
+        "whatsapp": "(21) 99999-0000",
+        "email": "contato@tuulli.com.br",
+        "instagram": "@tuulli"
+      }
+    }
+  ],
+  "membros": [
+    {
+      "_id": "adm",
+      "senha": "378e30c3f5f4b01ebee59f91f030f282:8edc169e9364a32ba3ede32e652e27e460ec2124b4096a80f95bc7e8fe78afb7404c842e39f4e21c5bb2a43a9723d6fecf70e06a7329fc249c5d1ed0a5da5964",
+      "ativo": true,
+      "gtId": null,
+      "nome": "Mãe Karoline Miranda",
+      "usuario": "admin",
+      "papel": "admin",
+      "nascimento": "",
+      "grau": 7,
+      "email": "mae@tuulli.com.br",
+      "orixas": {
+        "frente": "Omolu",
+        "junto": ""
+      },
+      "padrinhos": {
+        "orixas": [],
+        "pessoas": []
+      },
+      "entidades": []
+    },
+    {
+      "_id": "18b742ee-d847-4b01-8f55-4bb882cb3f18",
+      "senha": "378e30c3f5f4b01ebee59f91f030f282:8edc169e9364a32ba3ede32e652e27e460ec2124b4096a80f95bc7e8fe78afb7404c842e39f4e21c5bb2a43a9723d6fecf70e06a7329fc249c5d1ed0a5da5964",
+      "ativo": true,
+      "gtId": "acc08a6b-1100-4417-9d29-9747d3ea9cd3",
+      "nome": "Ana Beatriz Souza",
+      "usuario": "ana",
+      "papel": "filho",
+      "nascimento": "1994-07-21",
+      "grau": 6,
+      "email": "ana@exemplo.com",
+      "orixas": {
+        "frente": "Iansã",
+        "junto": "Ogum"
+      },
+      "padrinhos": {
+        "orixas": [
+          "Iansã"
+        ],
+        "pessoas": [
+          "Mãe Karoline Miranda",
+          "Caboclo Sete Flechas (entidade)"
+        ]
+      },
+      "entidades": [
+        {
+          "linha": "Caboclos",
+          "nome": "Cabocla Iara"
+        }
+      ]
+    },
+    {
+      "_id": "fca988e4-5256-4848-95e3-1200c519f6fb",
+      "senha": "378e30c3f5f4b01ebee59f91f030f282:8edc169e9364a32ba3ede32e652e27e460ec2124b4096a80f95bc7e8fe78afb7404c842e39f4e21c5bb2a43a9723d6fecf70e06a7329fc249c5d1ed0a5da5964",
+      "ativo": true,
+      "gtId": "3f048aea-a8e3-4c5b-b055-34b61d139984",
+      "nome": "Bruno Ferreira Lima",
+      "usuario": "bruno",
+      "papel": "filho",
+      "nascimento": "1988-01-05",
+      "grau": 6,
+      "email": "bruno@exemplo.com",
+      "orixas": {
+        "frente": "Ogum",
+        "junto": "Iemanjá"
+      },
+      "padrinhos": {
+        "orixas": [
+          "Ogum"
+        ],
+        "pessoas": [
+          "Mãe Karoline Miranda"
+        ]
+      },
+      "entidades": [
+        {
+          "linha": "Exus",
+          "nome": "Exu Tranca Ruas"
+        },
+        {
+          "linha": "Boiadeiros",
+          "nome": "Boiadeiro Navizala"
+        }
+      ]
+    },
+    {
+      "_id": "0cb40d6e-42fe-4699-abc6-a2c5f09a7d30",
+      "senha": "378e30c3f5f4b01ebee59f91f030f282:8edc169e9364a32ba3ede32e652e27e460ec2124b4096a80f95bc7e8fe78afb7404c842e39f4e21c5bb2a43a9723d6fecf70e06a7329fc249c5d1ed0a5da5964",
+      "ativo": true,
+      "gtId": "bd9cd2b3-0492-47ab-a696-1e7d547e9ea8",
+      "nome": "Carla Mendes",
+      "usuario": "carla",
+      "papel": "filho",
+      "nascimento": "1999-11-30",
+      "grau": 4,
+      "email": "carla@exemplo.com",
+      "orixas": {
+        "frente": "Iemanjá",
+        "junto": "Oxóssi"
+      },
+      "padrinhos": {
+        "orixas": [
+          "Iemanjá"
+        ],
+        "pessoas": [
+          "Ana Beatriz Souza"
+        ]
+      },
+      "entidades": [
+        {
+          "linha": "Crianças",
+          "nome": "Mariazinha"
+        }
+      ]
+    },
+    {
+      "_id": "534c7c6c-d832-4bd0-af43-a95bad0d4a9e",
+      "senha": "378e30c3f5f4b01ebee59f91f030f282:8edc169e9364a32ba3ede32e652e27e460ec2124b4096a80f95bc7e8fe78afb7404c842e39f4e21c5bb2a43a9723d6fecf70e06a7329fc249c5d1ed0a5da5964",
+      "ativo": true,
+      "gtId": "18099c6e-eda4-46b4-9a53-1095e90b7603",
+      "nome": "Diego Santana",
+      "usuario": "diego",
+      "papel": "filho",
+      "nascimento": "1991-04-17",
+      "grau": 5,
+      "email": "diego@exemplo.com",
+      "orixas": {
+        "frente": "Oxóssi",
+        "junto": "Oxum"
+      },
+      "padrinhos": {
+        "orixas": [
+          "Oxóssi"
+        ],
+        "pessoas": [
+          "Bruno Ferreira Lima"
+        ]
+      },
+      "entidades": [
+        {
+          "linha": "Caboclos",
+          "nome": "Caboclo Pena Branca"
+        }
+      ]
+    },
+    {
+      "_id": "c5807960-b4e8-4bf5-9cec-08c29be8dc1b",
+      "senha": "378e30c3f5f4b01ebee59f91f030f282:8edc169e9364a32ba3ede32e652e27e460ec2124b4096a80f95bc7e8fe78afb7404c842e39f4e21c5bb2a43a9723d6fecf70e06a7329fc249c5d1ed0a5da5964",
+      "ativo": true,
+      "gtId": "acc08a6b-1100-4417-9d29-9747d3ea9cd3",
+      "nome": "Elisa Rocha",
+      "usuario": "elisa",
+      "papel": "filho",
+      "nascimento": "1985-09-09",
+      "grau": 6,
+      "email": "elisa@exemplo.com",
+      "orixas": {
+        "frente": "Nanã",
+        "junto": "Omolu"
+      },
+      "padrinhos": {
+        "orixas": [
+          "Nanã"
+        ],
+        "pessoas": [
+          "Mãe Karoline Miranda"
+        ]
+      },
+      "entidades": [
+        {
+          "linha": "Pretos Velhos",
+          "nome": "Vó Cambinda"
+        }
+      ]
+    },
+    {
+      "_id": "558fbb73-e1da-4fd4-8249-7bcf9a42eacb",
+      "senha": "378e30c3f5f4b01ebee59f91f030f282:8edc169e9364a32ba3ede32e652e27e460ec2124b4096a80f95bc7e8fe78afb7404c842e39f4e21c5bb2a43a9723d6fecf70e06a7329fc249c5d1ed0a5da5964",
+      "ativo": true,
+      "gtId": "cc0a8fe0-3ecb-493c-b14f-5f81c8cbabcf",
+      "nome": "Fábio Nogueira",
+      "usuario": "fabio",
+      "papel": "filho",
+      "nascimento": "2000-12-02",
+      "grau": 3,
+      "email": "fabio@exemplo.com",
+      "orixas": {
+        "frente": "Xangô",
+        "junto": "Iansã"
+      },
+      "padrinhos": {
+        "orixas": [
+          "Xangô"
+        ],
+        "pessoas": [
+          "Elisa Rocha"
+        ]
+      },
+      "entidades": [
+        {
+          "linha": "Baianos",
+          "nome": "Zé do Coco"
+        }
+      ]
+    }
+  ],
+  "gts": [
+    {
+      "_id": "acc08a6b-1100-4417-9d29-9747d3ea9cd3",
+      "nome": "Consultas",
+      "descricao": "Médiuns de consulta e cambonagem dos consulentes",
+      "liderId": "18b742ee-d847-4b01-8f55-4bb882cb3f18",
+      "fixos": [
+        "c5807960-b4e8-4bf5-9cec-08c29be8dc1b"
+      ],
+      "membros": [
+        "18b742ee-d847-4b01-8f55-4bb882cb3f18",
+        "c5807960-b4e8-4bf5-9cec-08c29be8dc1b"
+      ],
+      "feedbacks": [
+        {
+          "id": "fb1",
+          "texto": "Cambonagem muito atenta na última gira — consulentes elogiaram o acolhimento.",
+          "data": "2026-08-05T22:48:30.827Z"
+        }
+      ]
+    },
+    {
+      "_id": "18099c6e-eda4-46b4-9a53-1095e90b7603",
+      "nome": "Passes",
+      "descricao": "Médiuns de passe",
+      "liderId": null,
+      "membros": [
+        "534c7c6c-d832-4bd0-af43-a95bad0d4a9e"
+      ]
+    },
+    {
+      "_id": "3f048aea-a8e3-4c5b-b055-34b61d139984",
+      "nome": "Apoio à Curimba",
+      "descricao": "Atabaques e pontos cantados",
+      "liderId": "fca988e4-5256-4848-95e3-1200c519f6fb",
+      "fixos": [],
+      "membros": [
+        "fca988e4-5256-4848-95e3-1200c519f6fb"
+      ]
+    },
+    {
+      "_id": "bd9cd2b3-0492-47ab-a696-1e7d547e9ea8",
+      "nome": "Defumação",
+      "descricao": "Preparo das ervas e defumação dos trabalhos",
+      "liderId": "0cb40d6e-42fe-4699-abc6-a2c5f09a7d30",
+      "membros": [
+        "0cb40d6e-42fe-4699-abc6-a2c5f09a7d30"
+      ]
+    },
+    {
+      "_id": "cc0a8fe0-3ecb-493c-b14f-5f81c8cbabcf",
+      "nome": "Organização da Mesa",
+      "descricao": "Organizar a mesa e servir as comidas",
+      "liderId": null,
+      "membros": [
+        "558fbb73-e1da-4fd4-8249-7bcf9a42eacb"
+      ]
+    },
+    {
+      "_id": "ee8c7bf9-6659-45fb-8201-07dab2c095c7",
+      "nome": "Limpeza",
+      "descricao": "Cuidado com o terreiro antes e depois dos trabalhos",
+      "liderId": null,
+      "membros": []
+    }
+  ],
+  "historicoGt": [
+    {
+      "_id": "96906156-4b99-4211-bda7-3288a7a08991",
+      "gtId": "acc08a6b-1100-4417-9d29-9747d3ea9cd3",
+      "membroId": "18b742ee-d847-4b01-8f55-4bb882cb3f18",
+      "data": "2026-08-05T22:48:30.826Z"
+    },
+    {
+      "_id": "f34ae61b-7c91-44a1-bbe9-24cf6b9e50bc",
+      "gtId": "acc08a6b-1100-4417-9d29-9747d3ea9cd3",
+      "membroId": "c5807960-b4e8-4bf5-9cec-08c29be8dc1b",
+      "data": "2026-08-05T22:48:30.826Z"
+    },
+    {
+      "_id": "33fb50d6-02b5-4f24-ae19-4a497afe4635",
+      "gtId": "18099c6e-eda4-46b4-9a53-1095e90b7603",
+      "membroId": "534c7c6c-d832-4bd0-af43-a95bad0d4a9e",
+      "data": "2026-08-05T22:48:30.827Z"
+    },
+    {
+      "_id": "c8b2faf6-923b-4885-8d17-2d957dd38c3b",
+      "gtId": "3f048aea-a8e3-4c5b-b055-34b61d139984",
+      "membroId": "fca988e4-5256-4848-95e3-1200c519f6fb",
+      "data": "2026-08-05T22:48:30.827Z"
+    },
+    {
+      "_id": "0d558ade-7b60-40cf-934f-d65cb4aa7430",
+      "gtId": "bd9cd2b3-0492-47ab-a696-1e7d547e9ea8",
+      "membroId": "0cb40d6e-42fe-4699-abc6-a2c5f09a7d30",
+      "data": "2026-08-05T22:48:30.827Z"
+    },
+    {
+      "_id": "bfd28478-6314-4f3a-bf36-1c4720892438",
+      "gtId": "cc0a8fe0-3ecb-493c-b14f-5f81c8cbabcf",
+      "membroId": "558fbb73-e1da-4fd4-8249-7bcf9a42eacb",
+      "data": "2026-08-05T22:48:30.827Z"
+    }
+  ],
+  "eventos": [
+    {
+      "_id": "4c240fb7-ab8b-419d-b8eb-bc1894103094",
+      "titulo": "Gira de Caboclos",
+      "tipo": "gira",
+      "data": "2026-07-22",
+      "hora": "20:00",
+      "descricao": "Gira pública com consulta",
+      "encerrada": true
+    },
+    {
+      "_id": "bc51ebe7-d599-40e8-aa59-85282d3f1204",
+      "titulo": "Gira de Pretos Velhos",
+      "tipo": "gira",
+      "data": "2026-07-29",
+      "hora": "20:00",
+      "descricao": "Gira pública com consulta",
+      "encerrada": true
+    },
+    {
+      "_id": "3a3051c9-c802-41ac-941c-163e939e4ae9",
+      "titulo": "Desenvolvimento mediúnico",
+      "tipo": "desenvolvimento",
+      "data": "2026-08-06",
+      "hora": "16:00",
+      "descricao": "Somente filhos da casa",
+      "encerrada": false
+    },
+    {
+      "_id": "8df93a4f-0dd8-4261-a351-c5051996f673",
+      "titulo": "Gira de Baianos",
+      "tipo": "gira",
+      "data": "2026-08-10",
+      "hora": "20:00",
+      "descricao": "Gira pública com consulta",
+      "encerrada": false
+    },
+    {
+      "_id": "0ddeeb57-b777-443a-a084-49ff40431d1d",
+      "titulo": "Festa de Omolu — gira extra",
+      "tipo": "gira_extra",
+      "data": "2026-09-12",
+      "hora": "18:00",
+      "descricao": "Celebração do orixá regente da casa, com contribuição extra",
+      "encerrada": false
+    }
+  ],
+  "frequencia": [
+    {
+      "_id": "9141d92c-16fa-4bcc-b9b7-aa59f35e0c86",
+      "eventoId": "4c240fb7-ab8b-419d-b8eb-bc1894103094",
+      "membroId": "18b742ee-d847-4b01-8f55-4bb882cb3f18",
+      "data": "2026-08-05T22:48:30.827Z"
+    },
+    {
+      "_id": "dc7c2ea8-1385-4d23-93dd-bd2be0011e3f",
+      "eventoId": "4c240fb7-ab8b-419d-b8eb-bc1894103094",
+      "membroId": "fca988e4-5256-4848-95e3-1200c519f6fb",
+      "data": "2026-08-05T22:48:30.827Z"
+    },
+    {
+      "_id": "7b3f7a7d-0806-44ea-b0e5-3773f71283d7",
+      "eventoId": "4c240fb7-ab8b-419d-b8eb-bc1894103094",
+      "membroId": "0cb40d6e-42fe-4699-abc6-a2c5f09a7d30",
+      "data": "2026-08-05T22:48:30.827Z"
+    },
+    {
+      "_id": "7c4a35e8-6793-4513-bf07-708dbb0b8f0a",
+      "eventoId": "4c240fb7-ab8b-419d-b8eb-bc1894103094",
+      "membroId": "534c7c6c-d832-4bd0-af43-a95bad0d4a9e",
+      "data": "2026-08-05T22:48:30.827Z"
+    },
+    {
+      "_id": "9947d14a-7e7c-4a37-8829-76db941657ca",
+      "eventoId": "4c240fb7-ab8b-419d-b8eb-bc1894103094",
+      "membroId": "c5807960-b4e8-4bf5-9cec-08c29be8dc1b",
+      "data": "2026-08-05T22:48:30.827Z"
+    },
+    {
+      "_id": "11446b2b-7a3d-4cd2-85d3-4c8270484b8f",
+      "eventoId": "bc51ebe7-d599-40e8-aa59-85282d3f1204",
+      "membroId": "18b742ee-d847-4b01-8f55-4bb882cb3f18",
+      "data": "2026-08-05T22:48:30.827Z"
+    },
+    {
+      "_id": "eb3c3db5-a816-4be1-a011-33a86ac14d51",
+      "eventoId": "bc51ebe7-d599-40e8-aa59-85282d3f1204",
+      "membroId": "fca988e4-5256-4848-95e3-1200c519f6fb",
+      "data": "2026-08-05T22:48:30.827Z"
+    },
+    {
+      "_id": "259272b3-3204-4600-8cec-e24dc0bfa76f",
+      "eventoId": "bc51ebe7-d599-40e8-aa59-85282d3f1204",
+      "membroId": "c5807960-b4e8-4bf5-9cec-08c29be8dc1b",
+      "data": "2026-08-05T22:48:30.827Z"
+    },
+    {
+      "_id": "d191eaf4-f561-4288-8edf-fdc50c8425b2",
+      "eventoId": "bc51ebe7-d599-40e8-aa59-85282d3f1204",
+      "membroId": "558fbb73-e1da-4fd4-8249-7bcf9a42eacb",
+      "data": "2026-08-05T22:48:30.827Z"
+    }
+  ],
+  "escalas": [
+    {
+      "_id": "11b4e85e-74ae-4f15-bb3b-e9018d894763",
+      "eventoId": "8df93a4f-0dd8-4261-a351-c5051996f673",
+      "funcoes": [
+        {
+          "nome": "Consultas — Consulentes",
+          "obs": "",
+          "membros": [
+            {
+              "membroId": "adm",
+              "nota": "",
+              "cambonagem": "Fixo"
+            },
+            {
+              "membroId": "18b742ee-d847-4b01-8f55-4bb882cb3f18",
+              "nota": "Líder",
+              "cambonoId": "558fbb73-e1da-4fd4-8249-7bcf9a42eacb"
+            },
+            {
+              "membroId": "c5807960-b4e8-4bf5-9cec-08c29be8dc1b",
+              "nota": "Fixo",
+              "cambonagem": "Fixo"
+            }
+          ]
+        },
+        {
+          "nome": "Passes",
+          "obs": "",
+          "membros": [
+            {
+              "membroId": "534c7c6c-d832-4bd0-af43-a95bad0d4a9e",
+              "nota": ""
+            }
+          ]
+        },
+        {
+          "nome": "Apoio à Curimba",
+          "obs": "",
+          "membros": [
+            {
+              "membroId": "fca988e4-5256-4848-95e3-1200c519f6fb",
+              "nota": ""
+            }
+          ]
+        },
+        {
+          "nome": "Defumação",
+          "obs": "Preparar ervas / defumar",
+          "membros": [
+            {
+              "membroId": "0cb40d6e-42fe-4699-abc6-a2c5f09a7d30",
+              "nota": ""
+            }
+          ]
+        },
+        {
+          "nome": "Organização da Mesa",
+          "obs": "Organizar a mesa e servir as comidas",
+          "membros": [
+            {
+              "membroId": "558fbb73-e1da-4fd4-8249-7bcf9a42eacb",
+              "nota": ""
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "pagamentos": [
+    {
+      "_id": "dca1c05b-5257-4894-81cf-2ee4ce500745",
+      "membroId": "18b742ee-d847-4b01-8f55-4bb882cb3f18",
+      "tipo": "mensalidade",
+      "referencia": "2026-08",
+      "valor": 50,
+      "status": "pago",
+      "dataPagamento": "2026-08-05T22:48:30.827Z"
+    },
+    {
+      "_id": "8adf2a60-0e5f-4f34-a754-9441dd1fb64d",
+      "membroId": "fca988e4-5256-4848-95e3-1200c519f6fb",
+      "tipo": "mensalidade",
+      "referencia": "2026-08",
+      "valor": 50,
+      "status": "pago",
+      "dataPagamento": "2026-08-05T22:48:30.827Z"
+    },
+    {
+      "_id": "fb604987-d149-44cf-b5b9-ef92751bdf00",
+      "membroId": "0cb40d6e-42fe-4699-abc6-a2c5f09a7d30",
+      "tipo": "mensalidade",
+      "referencia": "2026-08",
+      "valor": 50,
+      "status": "pendente",
+      "dataPagamento": null
+    },
+    {
+      "_id": "cac2b665-0fbd-46dd-bad9-c7ba489a0d69",
+      "membroId": "534c7c6c-d832-4bd0-af43-a95bad0d4a9e",
+      "tipo": "mensalidade",
+      "referencia": "2026-08",
+      "valor": 50,
+      "status": "pendente",
+      "dataPagamento": null
+    },
+    {
+      "_id": "ceaf2d8c-470a-4132-99e2-00b21da03524",
+      "membroId": "c5807960-b4e8-4bf5-9cec-08c29be8dc1b",
+      "tipo": "mensalidade",
+      "referencia": "2026-08",
+      "valor": 50,
+      "status": "pago",
+      "dataPagamento": "2026-08-05T22:48:30.827Z"
+    },
+    {
+      "_id": "34772dd3-77b5-49d2-8c24-ecbc38d4188f",
+      "membroId": "558fbb73-e1da-4fd4-8249-7bcf9a42eacb",
+      "tipo": "mensalidade",
+      "referencia": "2026-08",
+      "valor": 50,
+      "status": "pendente",
+      "dataPagamento": null
+    },
+    {
+      "_id": "55b9f9a8-6020-4d6e-b5ed-d94396a2579e",
+      "membroId": "18b742ee-d847-4b01-8f55-4bb882cb3f18",
+      "tipo": "gira_extra",
+      "referencia": "Festa de Omolu",
+      "valor": 30,
+      "status": "pago",
+      "dataPagamento": "2026-08-05T22:48:30.827Z"
+    }
+  ],
+  "faq": [
+    {
+      "_id": "842b4747-cb6f-433f-8b04-5275bcfc4255",
+      "autorId": "0cb40d6e-42fe-4699-abc6-a2c5f09a7d30",
+      "titulo": "Qual roupa devo usar na gira de desenvolvimento?",
+      "texto": "Sou nova na casa e queria confirmar se é branco total ou se pode ter detalhes coloridos.",
+      "data": "2026-08-05T22:48:30.827Z",
+      "respostas": [
+        {
+          "autorId": "18b742ee-d847-4b01-8f55-4bb882cb3f18",
+          "texto": "Branco total, Carla! Guias só as que a Mãe Karoline autorizou.",
+          "data": "2026-08-05T22:48:30.827Z"
+        }
+      ]
+    }
+  ],
+  "documentos": [
+    {
+      "_id": "a91582d4-a4e6-42e6-8975-43838f7c1d30",
+      "titulo": "Termo de compromisso do filho da casa",
+      "conteudo": "Eu, filho(a) do Templo de Umbanda Universalista Luz de Lion — TUULLI, comprometo-me a zelar pelos fundamentos, respeitar a hierarquia espiritual, manter assiduidade nas giras e desenvolvimentos e contribuir com o meu grupo de trabalho. Declaro estar ciente do regimento interno do templo.",
+      "data": "2026-08-05T22:48:30.827Z",
+      "assinaturas": [
+        {
+          "membroId": "18b742ee-d847-4b01-8f55-4bb882cb3f18",
+          "nome": "Ana Beatriz Souza",
+          "data": "2026-08-05T22:48:30.827Z"
+        }
+      ]
+    }
+  ],
+  "certificados": [
+    {
+      "_id": "f3a28867-59b1-41b8-8ef9-95abbb3fd01c",
+      "membroId": "18b742ee-d847-4b01-8f55-4bb882cb3f18",
+      "titulo": "Curso de Fundamentos da Umbanda — Módulo I",
+      "descricao": "Concluiu com aproveitamento o Módulo I do curso de fundamentos, com carga horária de 24 horas.",
+      "data": "2026-07-16"
+    }
+  ],
+  "justificativas": [
+    {
+      "_id": "e4d5cf45-db20-4620-b3e7-dab00efb9a96",
+      "eventoId": "bc51ebe7-d599-40e8-aa59-85282d3f1204",
+      "membroId": "0cb40d6e-42fe-4699-abc6-a2c5f09a7d30",
+      "motivo": "trabalho",
+      "texto": "Peguei plantão de última hora.",
+      "status": "pendente",
+      "data": "2026-08-05T22:48:30.827Z"
+    },
+    {
+      "_id": "1c7360d3-3943-4e6c-a132-8dd7ce0896be",
+      "eventoId": "bc51ebe7-d599-40e8-aa59-85282d3f1204",
+      "membroId": "534c7c6c-d832-4bd0-af43-a95bad0d4a9e",
+      "motivo": "doenca",
+      "texto": "Estava gripado, com febre.",
+      "status": "aceita",
+      "data": "2026-08-05T22:48:30.827Z",
+      "respostaData": "2026-08-05T22:48:30.827Z"
+    }
+  ],
+  "buzios": [
+    {
+      "_id": "3eea5b62-89b9-4f73-a2b0-cd429d7da50a",
+      "membroId": "18b742ee-d847-4b01-8f55-4bb882cb3f18",
+      "data": "2026-06-26",
+      "texto": "Confirmação de Iansã na frente com Ogum de juntó. Orientado banho de ervas quentes e firmeza semanal."
+    },
+    {
+      "_id": "0b885244-89a4-43f4-af42-4b8a94ac4aca",
+      "membroId": "18b742ee-d847-4b01-8f55-4bb882cb3f18",
+      "data": "2026-07-31",
+      "texto": "Caminho aberto para o desenvolvimento com a Cabocla Iara. Reforçar presença nas giras de caboclo."
+    }
+  ],
+  "gastos": [
+    {
+      "_id": "9a9bd3ba-07be-45ac-a058-d1499f67ff1f",
+      "descricao": "Aluguel do galpão",
+      "categoria": "fixo",
+      "valor": 400,
+      "data": "2026-08-05",
+      "pagoPor": "caixa"
+    },
+    {
+      "_id": "5b19a45a-03fb-4056-921d-1feb0ae93f06",
+      "descricao": "Velas e ervas para as giras do mês",
+      "categoria": "variavel",
+      "valor": 85.5,
+      "data": "2026-08-08",
+      "pagoPor": "caixa"
+    },
+    {
+      "_id": "a2631c03-e843-4f22-bf89-352c18da2106",
+      "descricao": "Flores da Festa de Omolu (adiantado pela Mãe Karol)",
+      "categoria": "variavel",
+      "valor": 120,
+      "data": "2026-08-15",
+      "pagoPor": "administracao"
+    }
+  ],
+  "indicacoes": [
+    {
+      "_id": "098eea4a-d684-45e5-a92c-95cf438890b9",
+      "titulo": "Casa de ervas do Mercadão de Madureira",
+      "descricao": "Onde a casa indica comprar ervas e defumadores. (Exemplo editável pela administração.)",
+      "link": ""
+    }
+  ]
+}

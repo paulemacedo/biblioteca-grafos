@@ -1,0 +1,41 @@
+.pagina-certificado {
+  background: #e6e3d8;
+  display: grid;
+  place-items: center;
+  min-height: 100vh;
+  padding: 24px;
+}
+.folha {
+  background: var(--guia);
+  width: min(900px, 96vw);
+  aspect-ratio: 1.414;
+  border: 3px double var(--mata);
+  outline: 10px solid var(--guia);
+  padding: 6% 8%;
+  text-align: center;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+}
+.folha img.logo { width: 92px; height: 92px; border-radius: 50%; margin: 0 auto 8px; }
+.folha h1 { font-size: 40px; margin: 0; color: var(--mata); }
+.folha .eyebrow { letter-spacing: 0.3em; }
+.folha .nome {
+  font-family: 'Marcellus', serif;
+  font-size: 34px;
+  border-bottom: 1px solid var(--linha);
+  display: inline-block;
+  padding: 0 30px 4px;
+  margin: 8px auto;
+}
+.folha .descricao { max-width: 620px; margin: 0 auto; color: var(--tinta-suave); }
+.assinatura { margin-top: 26px; }
+.assinatura .traco { width: 260px; border-top: 1px solid var(--tinta); margin: 0 auto 6px; }
+.acoes { margin-top: 18px; }
+@media print {
+  .pagina-certificado { background: #fff; padding: 0; }
+  .acoes { display: none; }
+  .folha { outline: none; width: 100%; }
+}

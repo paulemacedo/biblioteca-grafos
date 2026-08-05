@@ -1,0 +1,20 @@
+{
+  "name": "casa-de-umbanda",
+  "version": "1.0.0",
+  "description": "Sistema de gerenciamento para casa de Umbanda — portal público, área dos filhos da casa e administração",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "express-session": "^1.18.0",
+    "multer": "^1.4.5-lts.1",
+    "xlsx": "^0.18.5"
+  },
+  "optionalDependencies": {
+    "connect-mongo": "^6.0.0",
+    "mongodb": "^6.8.0"
+  }
+}

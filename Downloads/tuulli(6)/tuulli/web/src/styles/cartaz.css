@@ -1,0 +1,116 @@
+/* =====================================================================
+   Cartazes: calendário anual (estilo do material da casa) e
+   quadros de escala por gira — ambos imprimíveis.
+===================================================================== */
+:root {
+  --terra: #7c4a12;
+  --creme: #f6f2cd;
+  --creme-borda: #ded5a2;
+}
+
+/* ---------------- cartaz do calendário ---------------- */
+.cartaz-cal {
+  background: #fff;
+  border: 1px solid var(--linha);
+  border-radius: var(--raio);
+  padding: 34px 38px;
+}
+.cartaz-cal .cab {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 24px;
+  flex-wrap: wrap;
+}
+.cartaz-cal .tit {
+  font-family: 'Marcellus', serif;
+  color: var(--terra);
+  font-size: clamp(30px, 4.5vw, 46px);
+  line-height: 1.05;
+  margin: 0;
+}
+.cartaz-cal .ano {
+  display: block;
+  font-size: clamp(44px, 6.5vw, 64px);
+  color: var(--terra);
+  text-shadow: 3px 3px 0 #f3c9a8;
+  letter-spacing: 2px;
+}
+.cartaz-cal img.logo { width: 104px; height: 104px; border-radius: 50%; }
+
+.meses {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(232px, 1fr));
+  gap: 18px;
+  margin-top: 28px;
+}
+.mes {
+  background: var(--creme);
+  border: 1px solid var(--creme-borda);
+  border-radius: 6px;
+  padding: 16px 18px;
+}
+.mes h3 {
+  text-align: center;
+  color: var(--terra);
+  font-size: 23px;
+  margin: 0 0 12px;
+}
+.mes ul { list-style: none; margin: 0; padding: 0; display: grid; gap: 9px; font-size: 14.5px; }
+.mes li strong { color: var(--terra); }
+.mes.avisos { background: #fbf7e3; }
+.mes.avisos p { font-size: 14.5px; margin: 0 0 8px; }
+
+/* ---------------- quadros de escala ---------------- */
+.escala-cab {
+  background: var(--sol);
+  color: #3a2a05;
+  font-family: 'Marcellus', serif;
+  font-size: clamp(22px, 3vw, 30px);
+  text-align: center;
+  padding: 10px 16px;
+  border-radius: 6px;
+}
+.escala-sub { text-align: center; color: var(--tinta-suave); margin: 8px 0 0; }
+.quadros {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 18px;
+  align-items: flex-start;
+  margin-top: 18px;
+}
+.quadro { flex: 1 1 230px; min-width: 220px; max-width: 380px; }
+.quadro .funcao {
+  color: #fff;
+  font-weight: 700;
+  text-align: center;
+  padding: 9px 12px;
+  border-radius: 6px;
+  font-size: 15.5px;
+}
+.quadro table { margin-top: 8px; font-size: 14px; }
+.quadro th { font-size: 11.5px; padding: 7px 10px; }
+.quadro td { padding: 7px 10px; }
+.quadro .obs { font-size: 13px; color: var(--tinta-suave); margin: 6px 2px 0; font-style: italic; }
+.quadro .conta {
+  margin-top: 8px;
+  background: var(--sol);
+  color: #3a2a05;
+  text-align: center;
+  font-weight: 700;
+  padding: 6px;
+  border-radius: 4px;
+}
+.escala-vazia { color: var(--tinta-suave); font-style: italic; margin-top: 16px; }
+
+/* página avulsa do cartaz de escala */
+.pagina-cartaz { background: var(--areia); min-height: 100vh; padding: 28px 20px; }
+.pagina-cartaz .miolo { max-width: 1100px; margin: 0 auto; }
+
+@media print {
+  .pagina-cartaz { background: #fff; padding: 0; }
+  .nao-imprimir { display: none !important; }
+  .cartaz-cal { border: none; padding: 0; }
+  .mes { break-inside: avoid; }
+  .quadro { break-inside: avoid; }
+}
